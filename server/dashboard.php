@@ -1,22 +1,22 @@
 <?php
 
 return [
-    'dashboard' => 'Dashboard',
+    'dashboard' => 'Панель управления',
 
     'sftp' => [
-        'title' => 'SFTP Details',
-        'server-address' => 'Server Address',
-        'username' => 'Username',
-        'description' => 'Your SFTP password is the same as the password you use to access this panel.',
-        'launch-sftp' => 'Launch SFTP',
+        'title' => 'Детали SFTP',
+        'server-address' => 'Адрес сервера',
+        'username' => 'Имя пользователя',
+        'description' => 'Ваш пароль для SFTP такой же, как пароль, который вы используете для доступа к этой панели.',
+        'launch-sftp' => 'Запустить SFTP',
     ],
     'server-info' => [
-        'title' => 'Server Info',
-        'hostname' => 'Hostname',
-        'node-id' => 'Node ID',
-        'server-id' => 'Server ID',
+        'title' => 'Информация о сервере',
+        'hostname' => 'Имя хоста',
+        'node-id' => 'ID узла',
+        'server-id' => 'ID сервера',
         
-        'uptime' => 'Uptime',
-        'server-ip' => 'Server IP',
+        'uptime' => 'Время работы',
+        'server-ip' => 'IP-адрес сервера',
     ],
 ];
