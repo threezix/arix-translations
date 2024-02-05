@@ -1,18 +1,18 @@
 <?php
 
-return[
-    'network' => 'Network',
-    'manage-allocation' => 'Manage allocation',
-    'create-allocation' => 'Create Allocation',
-    'currently-using' => 'You are currently using {{current}} of {{max}} allowed allocations for this server.',
+return [
+    'network' => 'Сеть',
+    'manage-allocation' => 'Управление портом',
+    'create-allocation' => 'Создать порт',
+    'currently-using' => 'В настоящее время вы используете {{current}} из {{max}} разрешенных портов для этого сервера.',
 
     'IP' => 'IP',
-    'port' => 'Port',
-    'notes' => 'Notes',
-    'primary' => 'Primary',
-    'make-primary' => 'Make Primary',
+    'port' => 'Порт',
+    'notes' => 'Примечания',
+    'primary' => 'Основной',
+    'make-primary' => 'Сделать основным',
 
-    'remove-allocation' => 'Remove Allocation',
-    'remove-allocation-description' => 'This allocation will be immediately removed from your server.',
-    'delete' => 'Delete'
+    'remove-allocation' => 'Удалить порт',
+    'remove-allocation-description' => 'Этот порт будет немедленно удалено с вашего сервера.',
+    'delete' => 'Удалить',
 ];
