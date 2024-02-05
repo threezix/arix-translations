@@ -1,32 +1,32 @@
 <?php
 
 return [
-    'title' => 'Users',
-    'manage-subusers' => 'Manage subusers',
-    'new-user' => 'New user',
+    'title' => 'Пользователи',
+    'manage-subusers' => 'Управление подпользователями',
+    'new-user' => 'Новый пользователь',
 
-    'no-users' => 'It looks like you don\'t have any subusers.',
+    'no-users' => 'Похоже, у вас нет подпользователей.',
 
-    'name' => 'Name',
+    'name' => 'Имя',
     'email' => 'Email',
-    '2FA-enabled' => '2FA Enabled',
-    'creation-date' => 'Creation date',
-    'modify-permissions' => 'Modify permissions',
+    '2FA-enabled' => '2FA включено',
+    'creation-date' => 'Дата создания',
+    'modify-permissions' => 'Изменить разрешения',
 
-    'user-email' => 'User Email',
-    'user-email-description' => 'Enter the email address of the user you wish to invite as a subuser for this server.',
+    'user-email' => 'Email пользователя',
+    'user-email-description' => 'Введите адрес электронной почты пользователя, которого вы хотите пригласить в качестве подпользователя для этого сервера.',
 
-    'modify-permissions-for' => 'Modify permissions for',
-    'view-permissions-for' => 'View permissions for',
-    'create-new-subuser' => 'Create new subuser',
-    'must-not-exceed' => 'Email addresses must not exceed 191 characters.',
-    'valid-email' => 'A valid email address must be provided.',
-    'save' => 'Save',
-    'invite-user' => 'Invite User',
+    'modify-permissions-for' => 'Изменить разрешения для',
+    'view-permissions-for' => 'Просмотреть разрешения для',
+    'create-new-subuser' => 'Создать нового подпользователя',
+    'must-not-exceed' => 'Адреса электронной почты не должны превышать 191 символ.',
+    'valid-email' => 'Необходимо указать действительный адрес электронной почты.',
+    'save' => 'Сохранить',
+    'invite-user' => 'Пригласить пользователя',
 
-    'only-permissions-you-assigned' => 'Only permissions which your account is currently assigned may be selected when creating or modifying other users.',
+    'only-permissions-you-assigned' => 'Можно выбирать только те разрешения, которые в данный момент назначены вашей учетной записи при создании или изменении других пользователей.',
 
-    'delete-this-subuser' => 'Delete this subuser?',
-    'yes-remove' => 'Yes, remove subuser',
-    'are-you-sure-to-remove' => 'Are you sure you wish to remove this subuser? They will have all access to this server revoked immediately.'
+    'delete-this-subuser' => 'Удалить этого подпользователя?',
+    'yes-remove' => 'Да, удалить подпользователя',
+    'are-you-sure-to-remove' => 'Вы уверены, что хотите удалить этого подпользователя? У него немедленно отберут все доступы к этому серверу.'
 ];
